@@ -7,4 +7,5 @@ My practice repo for learning web development.
 - JavaScript
 
 ## Progress
-- Day 1: Set up VS Code, Git and GitHub. First HTML page.
+- Day 0: Set up VS Code, Git and GitHub. First HTML page.
+- Day 1: learned about html tags
