@@ -1,0 +1,56 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>day 2:form,input tags and tables</title>
+        <meta name="viewport" content="width:device-width,initial-scale:1.0">
+    </head>
+    <body>
+        <h1>Forms and Input Tags</h1>
+        <h2>Creating a registration form</h2>
+
+        <form>
+            
+            <label for="name">Name :</label>
+            <input type="text" id="name" placeholder="enter your name"/>
+            <br><br>
+            <label for="email">Email :</label>
+            <input type="email" id="email" placeholder="eg:abc@gmail.com"/>
+            <br><br>
+            <label for="telephone">Telephone :</label>
+            <input type="tel" id="telephone" placeholder="enter your phone number"/>
+            <br><br>
+
+           <h3>Select a skill :</h3>
+           <input type="radio" name="skills" value="web-dev" id="web"/>
+           <label for="web">Web Development</label>
+           <br><br>
+           <input type="radio" name="skills" id="app" value="app-dev"/>
+           <label for="app">App Development</label>
+           <br><br>
+           <input type="radio" name="skills" value="data-analyst" id="data-analyst"/>
+           <label for="data-analyst">Data Analyst</label>
+           <br><br>
+
+           <h3>Select programming languages :</h3>
+           <input type="checkbox" name="language" id="python" value="python"/>
+           <label for="python">Python</label>
+           <br><br>
+           <input type="checkbox" name="language" id="c++" value="c++"/>
+           <label for="'c++">C++</label>
+           <br><br>
+           <input type="checkbox" name="language" id="java" value="java"/>
+           <label for="java">Java</label>
+           <br><br>
+
+           <h3>Select Country :</h3>
+           <select name="country">
+            <option value="india">India</option>
+            <option value="US">US</option>
+            <option value="china">China</option>
+           </select>
+           <br><br>
+           <button type="submit">SUBMIT</button>
+
+        </form>
+    </body>
+    </html>
