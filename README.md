@@ -13,3 +13,4 @@ My practice repo for learning web development.
 - Day 3: Learned CSS (three types of CSS) , selectors , colors and fonts.
 - Day 4: CSS : Box model (created menu card).
 - Day 5 CSS : cascading rules and specificity.
+- Day 6 CSS : display and centering.
