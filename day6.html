@@ -1,0 +1,59 @@
+<!DOCTYPE HTML>
+<html>
+    <head> 
+        <title>day 6 CSS : display and centering width</title>
+        <meta name="viewport" content="width:divice-width,intial-scale:1.-">
+        <style>
+          body{
+
+          }
+          .m{
+            background:lightgreen;
+            padding:30px;
+            margin:40px;
+            display:block;
+          }
+          #n{
+            background-color:lightpink;
+            padding:30px;
+            margin:10px;
+            display:inline;
+          }
+          p{
+            background-color:lightpink;
+            padding:20px;
+            margin-top:70px;
+          }
+          .g{
+            background:lightblue;
+            display:inline-block;
+          }
+          .h{
+            display:none;
+          }
+          .j{
+           width:200px;
+           background:lightpink;
+           padding:10px;
+           margin:0 auto;
+          }
+        </style>
+    </head>
+    <body>
+        <h2>1. display block will make it cover full horizontal width and new element will start on new line  </h2>
+        <div class="m">box 1</div>
+        <div class="m">box 2</div>
+        <h2>2. display inline and inline elements will place next element side by side but overlap others if used vertically up and down</h2>
+        <br><br>
+        <span id="n">box2</span><span id="n">box 3</span>
+       <p>box 4</p>
+       <h2>3. display inline-block adjust both horizontally and vertically and let sit elements side by side</h2>
+       <div class="g">box 5</div>
+       <div class="g">box 6</div>
+       <br>
+       <h2>4. display none removes the element from layout</div>
+       <div class="h">box 777777777</div>
+       <h2>5. centering a box</h2>
+       <div class="j">sample box</div>
+    </body>
+</html>
