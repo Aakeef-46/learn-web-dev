@@ -14,3 +14,4 @@ My practice repo for learning web development.
 - Day 4: CSS : Box model (created menu card).
 - Day 5 CSS : cascading rules and specificity.
 - Day 6 CSS : display and centering.
+- Day 7 CSS : flexbox and its properties.
