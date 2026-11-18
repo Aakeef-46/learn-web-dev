@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>CSS : Grids (rows and columns)</title>
+        <meta name="viewport" content="width:device-width,initial-scale:1.0">
+        <style>
+            *{
+                box-sizing:border-box;
+            }
+            .grid{
+                display:grid;
+                grid-template-rows:repeat(4,1fr);
+                grid-template-columns:1fr 1fr;
+            
+                background:lightblue;
+                width:600px;
+                height:auto;
+                justify-items:center;
+                align-items:center;
+            }
+            .t{
+                background:white;
+                margin:10px;
+                width:100px;
+                text-align:center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="grid">
+            <div class="t">1</div>
+            <div class="t">2</div>
+            <div class="t">3</div>
+            <div class="t">4</div>
+            <div class="t">5</div>
+            <div class="t">6 </div>
+            <div class="t">7 </div>
+            <div class="t">8 </div>
+        </div>
+    </body>
+    </html>
