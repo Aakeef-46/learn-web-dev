@@ -15,3 +15,4 @@ My practice repo for learning web development.
 - Day 5 CSS : cascading rules and specificity.
 - Day 6 CSS : display and centering.
 - Day 7 CSS : flexbox and its properties.
+- Day 8 CSS : Grid and its properties.
