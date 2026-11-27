@@ -2,7 +2,7 @@
 <html>
     <head>
         <title>Mini project : card gallery</title>
-        <meta name="viewport" content="width:device-width,initial-scale:1.0">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
         <style>
             *{
                 box-sizing:border-box;
@@ -18,7 +18,7 @@
                 border-radius:30px 0px;
                 border:1px solid rgb(132, 0, 103);
                 display:grid;
-                grid-template-columns:1fr 1fr 1fr;
+                grid-template-columns:repeat(auto-fit, minmax(200px, 1fr));
                 justify-items:center;
                 align-items:center;
             }
@@ -34,7 +34,7 @@
             }
             .sports{
                 display:grid;
-                grid-template-columns:1fr 1fr 1fr 1fr;
+                grid-template-columns:repeat(auto-fit, minmax(200px, 1fr));
                 gap:10px;
                 border:1px solid rgb(0, 0, 0);
                 padding:5px;
@@ -48,15 +48,13 @@
             }
             .adv{
                 display:grid;
-                grid-template-columns:1fr 1fr 1fr 1fr;
+                grid-template-columns:repeat(auto-fit, minmax(200px, 1fr));
                 gap:10px;
                 border:1px solid rgb(0, 0, 0);
                 padding:5px;
                 justify-items:center;
                 align-items:center;
             }
-            
-
         </style>
     </head>
     <body>

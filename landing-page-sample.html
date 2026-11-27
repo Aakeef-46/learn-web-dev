@@ -1,0 +1,106 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Landing page sample </title>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <style>
+            body{
+                margin:0;
+            }
+            .head{
+                background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEvbTZmPVlQPODS7TcErOE6-XUQ0I8DyG8hIC7xpVqSQ&s=10");
+                width:100%;
+                height:350px;
+                margin:0;
+            }
+            h1{
+                color:white;
+                margin:0;
+                font-family: "Playfair Display",serif;
+                font-size:38px;
+                text-align:center;
+                padding-top:100px;
+            }
+            h3{
+                color:white;
+                text-align:center; 
+            }
+            .header{
+                text-decoration:none;
+                background-color:rgb(207, 207, 207);
+                height:50px;
+                padding:10px;
+                border-radius:105px;
+            }
+            nav{
+                display:flex;
+                justify-content:space-around;
+                align-items:center;
+                height:50px;
+            }
+            a{
+                text-decoration:none;
+                color:white;
+                background:grey;
+                padding:10px;
+                border-radius:10px;
+            }
+            .main{
+                  display:grid;
+                  grid-template-columns:repeat(auto-fit, minmax(200px, 1fr));
+                  gap:15px;
+                  margin-top:20px;
+                  margin-left:10px;
+                  margin-right:10px;
+            }
+            .app,.web,.services,.backend{
+                background:gray;
+                text-align:center;
+                padding:5px;
+                border-radius:10px;
+                border:1px solid black;
+                height:170px;
+            }
+            h2{
+                background:darkgray;
+            }
+
+        </style>
+    </head>
+    <body>
+        <header>
+            <div class="head">
+                <div class="header">
+                    <nav>
+                    <a href="#">Home
+                    <a href="#">About</a>
+                    <a href="#">Products</a>
+                    <a href="#">Terms and Policies</a>
+                    </nav>
+                </div>
+                <h1>Landing Page</h1>
+                <h3>A landing page made by Aakeef</h3>
+            </div> 
+        </header>
+        <main>
+        <div class="main">
+            <div class="app">
+                <h2>App Development</h2>
+                <p> Developing high end applications according to your choice !</p>
+            </div>
+            <div class="web">
+                 <h2>Web applications</h2>
+                 <p>Developing websites that actually works . We build all types of web applications</p>
+            </div>
+            <div class="services">
+                <h2>Maintainace</h2>
+                <p>Maintaining your applications seems difficult dont worry we are here !</p>
+            </div>
+            <div class="backend">
+                <h2>Backend Services</h2>
+                <p>We also manage and develop Backend</p>
+            </div>
+        </div>
+    </main>
+    </body>
+    </html>
