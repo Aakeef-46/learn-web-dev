@@ -17,3 +17,4 @@ My practice repo for learning web development.
 - Day 7 CSS : flexbox and its properties.
 - Day 8 CSS : Grid and its properties.
 - Day 9 : Mini Project.
+- Day 10 : Landing page.
